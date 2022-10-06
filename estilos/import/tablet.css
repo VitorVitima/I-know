@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@media screen and (max-height: 1365px) and (min-height: 550px) and (min-width: 700px) and (max-width: 1365px) {
+    body {
+        background-image: url(../../imagens/back-tablet.jpg);
+    }
+    main > img#phone {
+        display: none;
+    }
+    main > img#tablet {
+        display: block;
+    }
+}

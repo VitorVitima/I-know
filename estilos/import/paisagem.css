@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+
+@media screen and (min-width: 1366px) and (min-height: 400px) and (max-height: 700px){
+    body {
+    background-image: url(../../imagens/back-pc.jpg);
+}
+main > img#phone {
+    display: none;
+}
+main > img#pc {
+    display: block;
+}
+}

@@ -1,0 +1,13 @@
+/* css para impressora (print) */
+
+@media print {
+    main > img#phone {
+        display: none;
+    }
+    main > img#print {
+        display: block;
+    }
+    main::after {
+        content: 'Impressora não aceita Background... Foda';
+    }
+}
